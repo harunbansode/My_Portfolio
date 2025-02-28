@@ -12,6 +12,7 @@ import { useMediaQuery } from "react-responsive";
 import Target from "../components/Target";
 import { calculateSizes } from "../constants";
 import HeroCamera from "../components/HeroCamera";
+import Button from "../components/Button";
 
 
 const Hero = () => {
@@ -66,7 +67,7 @@ const Hero = () => {
     : [9.5, 5.7, 0];
 
     const pyPosition =  isSmall 
-    ? [-5, 7, 0] 
+    ? [-3.5, 7, 0] 
     : isMobile ? [-10, 10, 0] 
     : isTablet ? [-12, 10, 0] 
     : [-9.5, 5.7, 0];
@@ -83,15 +84,8 @@ const Hero = () => {
                     <PerspectiveCamera makeDefault position={[0, 0, 20]} />
                     <HeroCamera>
                     <HackerRoom
-                        // scale={0.1} 
-                        // position={[-2, 8, 2]} 
-                        // rotation={[0, -Math.PI, 0]}
-                        // position={[1.3, -8.9, 1.9]} 
                         position={sizes.deskPosition} 
-                        // rotation = {[-9.3, -6.4, -9.4]}
                         rotation = {[0, -Math.PI, 0]}
-                        // scale={[0.1, 0.1, 0.1]} 
-                        // scale={isMobile ? 0.07 : 0.1} 
                         scale={sizes.deskScale} 
                         />
                     </HeroCamera>
@@ -107,6 +101,11 @@ const Hero = () => {
                     </Suspense>
 
                 </Canvas>
+            </div>
+            <div className="absolute bottom-7 left-0 right-0 w-full z-10 sm:px-10 px-5">
+                <a href="#contact" className="w-fit">
+                    <Button name="Let's connect together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+                </a>
             </div>
         </section>
     )

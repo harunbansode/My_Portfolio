@@ -5,7 +5,7 @@ const NavItems = () => {
     return(
         <ul className="flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20">
             {navLinks.map(({ id, href, name}) => (
-                <li key={id} className="text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5">
+                <li key={id} className="text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-neutral-800 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5">
                     <a href={href} className="text-lg md:text-base hover:text-white transition-colors">
                         {name}
                     </a>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </nav>
                 </div>
             </div>
-            <div className={`absolute left-0 right-0 bg-black/90 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden ${isOpen ? 'block' : 'hidden'}`}>
+            <div className={`absolute left-0 right-0 bg-neutral-800/90 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden ${isOpen ? 'block' : 'hidden'}`}>
                 <nav className="p-5">
                     <NavItems />
                 </nav>
