@@ -1,4 +1,3 @@
-
 export const navLinks = [
     {
       id: 1,
@@ -178,3 +177,114 @@ export const navLinks = [
       animation: 'salute',
     },
   ];
+
+export const Programming_logo = [
+  {
+    tags: 
+    [
+      {
+        id: 1,
+        name: 'Python',
+        path: '/assets/logos/python.png',
+      },
+      {
+        id: 2,
+        name: 'JavaScript',
+        path: '/assets/logos/javascript.png',
+      },
+      {
+        id: 3,
+        name: 'SQL',
+        path: '/assets/logos/database.png',
+      },
+    ],
+  }
+]
+
+export const ML_AI = [
+  {
+    tags: 
+    [
+      {
+        id: 1,
+        name: 'Scikit_Learn',
+        path: '/assets/logos/scikit_learn.png',
+      },
+      {
+        id: 2,
+        name: 'TensorFlow',
+        path: '/assets/logos/TensorFlow.png',
+      },
+      {
+        id: 3,
+        name: 'PyTorch',
+        path: '/assets/logos/PyTorch.png',
+      },
+      {
+        id: 4,
+        name: 'OpenCV',
+        path: '/assets/logos/OpenCV.png',
+      },
+    ],
+  }
+]
+
+
+export const DL = [
+  {
+    tags: 
+    [
+      {
+        id: 1,
+        name: 'NumPy',
+        path: '/assets/logos/NumPy.png',
+      },
+      {
+        id: 2,
+        name: 'Matplotlib',
+        path: '/assets/logos/Matplotlib.png',
+      },
+      {
+        id: 3,
+        name: 'Pandas',
+        path: '/assets/logos/Pandas_Logo.png',
+      },
+    ],
+  }
+]
+
+export const DataTechno = [
+  {
+    tags: 
+    [
+      {
+        id: 1,
+        name: 'PostGreSQL',
+        path: '/assets/logos/postgre_logo.webp',
+      },
+      {
+        id: 2,
+        name: 'SQL_Server',
+        path: '/assets/logos/SQL_server.png',
+      },
+    ],
+  }
+]
+
+export const DevelopmentTools = [
+  {
+    tags: 
+    [
+      {
+        id: 1,
+        name: 'Git',
+        path: '/assets/logos/github.png',
+      },
+      {
+        id: 2,
+        name: 'SQL_Server',
+        path: '/assets/logos/SQL_server.png',
+      },
+    ],
+  }
+]
