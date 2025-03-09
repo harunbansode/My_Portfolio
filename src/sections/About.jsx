@@ -83,7 +83,7 @@ const About = () => {
                                 ))}
                         </div>
                         <div className="flex items-center gap-3">
-                            <p className="text-white">Artificial Intelligence & Machine Lang:</p>
+                            <p className="text-white">Artificial Intelligence & Machine Learning:</p>
                                     {ML.tags.map((tag, index) => (
                                     <div key={index} className="w-10 h-10 rounded-md bg-neutral-900 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center">
                                         <img src={tag.path} alt={tag.alt || "Tag icon"} />
@@ -110,7 +110,7 @@ const About = () => {
                         <div className="flex items-center gap-3">
                             <p className="text-white">Development Tools:</p>
                                     {Develop_Tools.tags.map((tag, index) => (
-                                    <div key={index} className="w-10 h-10 rounded-md bg-neutral-900 bg-opacity-10 flex justify-center items-center">
+                                    <div key={index} className="w-10 h-10 flex justify-center items-center">
                                         <img src={tag.path} alt={tag.alt || "Tag icon"} />
                                     </div>
                                 ))}

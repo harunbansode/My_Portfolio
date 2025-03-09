@@ -47,14 +47,14 @@ const Contact = () => {
     }
 
     return(
-        <section className="sm:px-10 px-5 my-20">
+        <section className="sm:px-10 px-5 my-30">
             <div className="relative min-h-screen flex items-center justify-center flex-col">
                 <img src="/assets/terminal.png" alt="Terminal Background" className="absolute min-h-screen inset-0"/>
                 <div className="max-w-xl relative z-10 sm:px-10 px-5 mt-20">
-                <h3 className=" sm:text-4xl text-3xl font-semibold text-white ">Let's Talk</h3>
-                <p className="text-lg text-white mt-3">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt sit repellendus dicta! Delectus, modi! Aut ratione facere id fugiat ut mollitia, veniam, quia quaerat enim at soluta beatae necessitatibus?
-                </p>
+                    <h3 className=" sm:text-4xl text-3xl font-semibold text-white ">Let's Talk</h3>
+                    <p className="text-lg text-white mt-3">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt sit repellendus dicta! Delectus, modi! Aut ratione facere id fugiat ut mollitia, veniam, quia quaerat enim at soluta beatae necessitatibus?
+                    </p>
                 <form ref={formRef} onSubmit={handleSubmit} className="mt-8 flex flex-col space-y-7">
                     <label className="space-y-3">
                         <span className="text-lg text-neutral-500 ">Full Name</span>
